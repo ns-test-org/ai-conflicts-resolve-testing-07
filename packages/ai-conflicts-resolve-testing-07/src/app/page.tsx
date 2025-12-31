@@ -3,12 +3,12 @@ export default function Landing() {
     <div className="min-h-screen w-full bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center px-6">
       <div className="max-w-4xl mx-auto text-center">
         {/* Main Headline */}
-        <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+        <h1 className="text-5xl md:text-7xl font-bold text-yellow-400 mb-6">
           Hello World
         </h1>
         
         {/* Description */}
-        <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl mx-auto">
+        <p className="text-xl md:text-2xl text-yellow-300 mb-8 max-w-2xl mx-auto">
           Welcome to your new landing page. This is where great things begin.
         </p>
         
@@ -20,4 +20,5 @@ export default function Landing() {
     </div>
   );
 }
+
 
