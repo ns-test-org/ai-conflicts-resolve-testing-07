@@ -3,7 +3,7 @@ export default function Landing() {
     <div className="min-h-screen w-full bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center px-6">
       <div className="max-w-4xl mx-auto text-center">
         {/* Main Headline */}
-        <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+        <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
           Hello World
         </h1>
         
@@ -20,4 +20,5 @@ export default function Landing() {
     </div>
   );
 }
+
 
